@@ -1,0 +1,13 @@
+# Dependencias para Streamlit Community Cloud (Python 3.12).
+# keras se fija en 3.13.2 porque es la versión con la que se guardó el modelo visual.
+streamlit>=1.50,<2
+flask>=3.0,<4
+gunicorn>=22.0
+requests>=2.31
+pandas>=2.0
+numpy>=1.26,<3
+pillow>=10.0
+scikit-learn>=1.4
+nltk>=3.8
+tensorflow-cpu>=2.18,<2.22
+keras==3.13.2
